@@ -1,29 +1,9 @@
-<html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+@extends('plantilla')
+@section('content')
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-
-    <body>
-        <nav>
-            <div class="nav-wrapper grey darken-4">
-              <a href=".index.html" class="brand-logo"><img src="./images/logo apple.png" alt="" width="60px" height="60px"></a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="./iphone.html">iPhone</a></li>
-                <li><a href="./iPad.html">iPad</a></li>
-                <li><a href="./Mac.html">Mac</a></li>
-              </ul>
-            </div>
-          </nav>
-
-
-          <section>
-          <div class="container">
+<main>
+    <section>
+<div class="container">
               <br> <br>
                 <h5 class="center-align black-text text-darken-3">Nuevo</h5>
                 <section class="center-align">
@@ -47,7 +27,7 @@
                         <img src="./images/Iphone 13 verde.jpg" width="70%" height="60%" alt="">
                     </section>
             </div>
-          </section>
+            </section>
 
             <section class="black">
                 <div class="container">
@@ -66,7 +46,6 @@
                     </div>
                 </div>
             </section>
-
 
                     <section class="center-align">
                         <div class="container">
@@ -133,35 +112,5 @@
                               </div>
                           </div>
                     </section>
-
-                          <footer class="page-footer grey lighten-2">
-                              <div class="container">
-                                <div class="row">
-                                  <div class="col l6 s12">
-                                    <h5 class="black-text">Descubrir y comprar</h5>
-                                    <p class="grey-text text-grey lighten-1">Tienda <br> Mac <br> iPad <br> iPhone <br> Watch <br> AirPods <br> TV y Casa <br> iPog touch <br> AirTag <br> Accesorios <br></p>
-                                  </div>
-                                  <div class="col l2 s12">
-                                    <h5 class="black-text">Servicios</h5>
-                                    <p class="grey-text text-grey-lighten-1">Apple Music <br> Apple TV+ <br> Apple Fitness+ <br> Apple Arcade <br> iCloud <br> Apple One <br> Apple Pay <br> Apple Books <br> Apple Podcast <br> Apple Store <br></p>
-                                  </div>
-                                  <div class="row">
-                                      <div class="col l4">
-                                      <h5 class="black-text">Apple Store</h5>
-                                      <p class="grey-text text-grey-lighten-1">Buscar una tienda <br> Genius Bar <br> Today at Apple <br> Campamento de Apple <br> App Apple Store <br> Financiamiento <br> Apple Trade In <br> Estado del pedido <br> Ayuda para comprar <br></p> 
-                                      </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="footer-copyright">
-                                <div class="container">
-                                <p class=" text-grey-darken-1">Copyright 2022 Apple Inc. Todos los derechos reservados.</p>
-                                </div>
-                              </div>
-                            </footer>
-                  
-          
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    </body>
-</html>
+</main>
+@endsection
